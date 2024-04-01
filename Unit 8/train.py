@@ -29,6 +29,7 @@ from pyvirtualdisplay import Display
 #For Unix-like devices
 import os
 os.environ["SDL_VIDEODRIVER"] = "dummy"
+#Launch Tensorboard to see the training results
 
 
 msg = Printer()
